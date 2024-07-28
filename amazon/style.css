@@ -733,6 +733,35 @@ button:hover {
     display: block;
 }
 
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: white;
+    font-size: 15px;
+}
+
+/* .box-col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: white;
+    font-size: 15px;
+
+} */
+.button-color{
+    display: flex;
+    align-items: right;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: white;
+    font-size: 15px;
+}
 
 
 

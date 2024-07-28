@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const cartItems = document.getElementById('cart-items');
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     totalPriceElement.textContent = totalPrice.toFixed(2);
 });
+
 document.addEventListener('DOMContentLoaded', function () {
     const cartItems = document.getElementById('cart-items');
     const totalPriceElement = document.getElementById('total-price');
@@ -50,3 +52,5 @@ document.addEventListener('DOMContentLoaded', function () {
     loadCart();
 
 });
+
+
